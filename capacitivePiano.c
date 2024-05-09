@@ -6,8 +6,7 @@
 *
 */
 // Ashna Samson
-// Student Number: 216196446
-// EECS 2032 - Embedded Systems Project
+// Embedded Systems Project
 // Import pitches.h
 #include "pitches.h"
 // Import the CapacitiveSensor Library
