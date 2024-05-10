@@ -1,6 +1,7 @@
 # Capacitive-Piano-with-LED-Matrix
 This repository contains a Capacitive Piano with LED Matrix project built with the Arduino Due.
 
+
 **A. SOFTWARE**
 
 First, I began by importing the required libraries: a “CapacitiveSensor” library and a “NewToneLib” library into the cross-platform application widely known as Arduino IDE. Then I defined the buzzer pin as well as each note pin. A serial communication then begins for both the LEDs and the buzzer in the void setup(), which allows a timer to be written out in a void loop(), and then the sensitivity of the sensors is set. For the matrix, the pins for each row and column were defined as well as the tempo for how long the LED should flash for. When the user’s touch is detected, a tone is produced from the buzzer, which displays the animated letter of the key that was touched, which is shown in the code for the LED matrix which determines whether the LED light is on or off using binary. The main software design technique was implementing the new tone library and setting pitches for each key of the buzzer by using if-statements and for loops for the matrix letter display.
